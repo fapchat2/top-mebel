@@ -21,6 +21,12 @@
     margin-top: 20px;
 }
 
+
+.sec0 h1,
+.sec0 h3 {
+text-align: left;
+}
+
 .sec0 input {
     padding: 10px;
     border-radius: 5px;
@@ -28,7 +34,6 @@
     margin: 6px;
     font-weight: 600;
 }
-
 
 
 @media (max-width: 1290px), (max-height: 716px) {
@@ -40,14 +45,30 @@
         width: 100%;
         flex-direction: column;
         justify-content: space-between;
-        padding: 20px;
+        padding: 10px;
     }
     .sec0 form {
         flex-direction: column;
     }}
 
 
-@media (max-width: 850px) {
+
+
+@media (max-width: 890px) {
+    
+    .sec0 h1 {
+        font-size: 19px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .sec0 h3 {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 890px) {
     .sec0 div {
         margin: 10px;
     }

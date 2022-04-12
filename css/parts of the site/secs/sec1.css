@@ -80,57 +80,59 @@
 
 
 
-@media (max-width: 850px) {
-
-    /* sec1 */
+@media (max-width: 890px) {
+ 
+    .sec1 section {
+        justify-items: center;
+    }
+    .sec1 h1 {
+        margin-top: 25px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .sec1 div {
+        margin-top: 20px;
+    }
+    .sec1 section p {
+        font-size: 15px;
+    }
     .sec1 section img {
         left: 108px;
         top: 49px;
     }
     .sec1 h2 {
         font-size: 18px;
+        font-weight: 500;
     }
     .sec1 section article {
         padding: 20px;
         margin-top: 5px;
     }
     .sec1 .ar1,
-    .sec1 .ar2 {
-        height: 420px;
-        width: 213px;
-        left: 1px;
-        top: 1px;
-        right: 1px;
-        bottom: 1px;
-    }
+    .sec1 .ar2,
     .sec1 .ar3,
     .sec1 .ar4 {
-        height: 420px;
-        width: 215px;
+        height: auto;
+        width: 90%;
         left: 1px;
         top: 1px;
         right: 1px;
         bottom: 1px;
     }
+
+
+    
 }
-
-@media (max-width: 490px) {
-
-    .sec1 h1 {
-        font-size: 3ch !important;
-    }
-}
-
+ 
 
 @media (max-width: 456px) {
     .sec1 section img {
         display: none;
     }
-    .sec1 h2 {
-        font-size: 18px;
-    }
     .sec1 section {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+ 
 }
